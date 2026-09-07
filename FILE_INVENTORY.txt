@@ -1,0 +1,27 @@
+RAMBO Scan V2.5 Deep Fallback
+
+Core Android:
+- app/src/main/java/com/ramboscan/app/MainActivity.kt
+- app/src/main/java/com/ramboscan/app/ScannerActivity.kt
+- app/src/main/java/com/ramboscan/app/StableTextGate.kt
+- app/src/main/java/com/ramboscan/app/AnswerCache.kt
+- app/src/main/java/com/ramboscan/app/KnowledgeStore.kt
+- app/src/main/java/com/ramboscan/app/FinanceCalculator.kt
+- app/src/main/java/com/ramboscan/app/OnDeviceRamboEngine.kt
+- app/src/main/java/com/ramboscan/app/OnlineFallbackEngine.kt
+
+Knowledge packs:
+- knowledge_core.tsv
+- knowledge_cre_asset_development.tsv
+- knowledge_fmva_modeling.tsv
+- knowledge_leed_ga_v5.tsv
+- knowledge_pmp_2026.tsv
+- knowledge_quant_analysis.tsv
+
+Tests:
+- tests/StableTextGateSelfTest.kt
+- tests/FinanceCalculatorSelfTest.kt
+- tests/knowledge_search_selftest.py
+
+Build:
+- .github/workflows/build-apk.yml

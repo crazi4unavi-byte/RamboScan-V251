@@ -1,0 +1,28 @@
+RAMBO Scan V2.5.1 VERIFIED PHONE BRAIN
+
+This package was created after inspecting the user's actual GitHub repository ZIP.
+The uploaded repo was old v0.1.4 source and contained RamboApiClient.kt / 10.0.2.2 backend code.
+
+This verified package:
+- contains the 8 intended phone-brain Kotlin source files
+- contains 6 knowledge TSV packs / 401 records
+- contains FinanceCalculator and calculator tests
+- contains OnlineFallbackEngine
+- contains full-screen scanner layout
+- contains NO RamboApiClient.kt
+- contains NO RAMBO_API_BASE_URL
+- contains NO 10.0.2.2
+- contains NO "Could not reach RAMBO" old-backend message
+- has versionName 0.2.5.1 / versionCode 9
+- has a GitHub workflow that fails immediately if stale backend code reappears
+
+Local verification performed before packaging:
+- knowledge retrieval self-test PASS
+- StableTextGate Kotlin self-test PASS
+- FinanceCalculator Kotlin self-test PASS
+- 401 records across 6 packs validated
+- Android XML parse PASS
+- stale backend reference scan PASS
+- full-screen scan-frame check PASS
+
+A full Android APK still requires Android SDK/Gradle dependency resolution; the included GitHub Actions workflow performs that real Android build and unit test.
