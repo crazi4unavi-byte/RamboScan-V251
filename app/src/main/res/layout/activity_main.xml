@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAMBO SCAN"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="SEE  →  RECOGNIZE  →  SOLVE  →  DISPLAY  →  RESET"
+            android:textColor="#B3FFFFFF"
+            android:textSize="13sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="V2.5.1 • VERIFIED PHONE BRAIN"
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/scanButton"
+            android:layout_width="220dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="52dp"
+            android:soundEffectsEnabled="false"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/scan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

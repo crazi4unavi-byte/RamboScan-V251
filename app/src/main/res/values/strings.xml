@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAMBO Scan</string>
+    <string name="scan">SCAN</string>
+    <string name="scanner_hint">Point at one printed question</string>
+    <string name="scanning">SEE • RECOGNIZE</string>
+    <string name="solving">SOLVE</string>
+    <string name="camera_permission_needed">Camera permission is required to scan questions.</string>
+</resources>
